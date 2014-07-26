@@ -49,6 +49,7 @@ nuget push ProjectName.1.0.0.0.nupkg chavedeseguranca -Source https://www.myget.
 
 ```
 Link para configuração de Key myget
-http://docs.myget.org/docs/reference/symbolsource#VisualStudio_Doesnt_Find_Debugging_Information_in_my_Symbols_Package
 ```
+http://docs.myget.org/docs/reference/symbolsource#VisualStudio_Doesnt_Find_Debugging_Information_in_my_Symbols_Package
+
 
