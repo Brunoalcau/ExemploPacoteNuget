@@ -16,7 +16,7 @@ nuget spec
 ```
 
 
-#Publicando um pacote servidor nuget.org
+#Publicando um pacote no servidor nuget.org
 
 Depois de criar um pacote, você provavelmente vai querer compartilhá-lo com o mundo. O NuGet.exe possui um comando de publicação exatamente para essa finalidade. Antes de publicar, você precisará criar uma conta em nuget.org.
 
@@ -37,7 +37,7 @@ nuget push ProjectName.1.0.0.nupkg -Symbols
 Especifique o nome do pacote principal e não o nome do pacote de símbolos. O comando localiza o pacote de símbolos apropriado por convenção. O comando envia por push o pacote principal para a galeria do NuGet e o pacote de símbolos para o repositório symbolsource.org do parceiro.
 
 
-#Publicandp um pacote no servidor myget 
+#Publicando um pacote no servidor myget 
 
 Quando estiver registrado para uma conta, clique no link da sua conta para ver a sua chave de acesso. Essa chave é importante, pois ela identifica o comando nuget.exe para a galeria e é uma senha irrevogável.
 
